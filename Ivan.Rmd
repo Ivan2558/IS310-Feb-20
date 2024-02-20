@@ -4,9 +4,10 @@ author: "Ivan Mei"
 data: "r.Sys.Data()"
 output: "html_document"
 ---
-'''{r setup, include=False}
+```
+{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=TRUE)
-'''
+```
 
 
 ## R Markdown
